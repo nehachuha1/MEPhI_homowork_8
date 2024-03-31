@@ -30,7 +30,7 @@ def parsing_site(page: int = 1) -> list:
         options=chrome_options
     )
     try:
-        browser.get(url='https://www.wildberries.ru/catalog/muzhchinam/pizhamy?page={page}'.format(page=page))
+        browser.get(url='https://poizon.life/?tfc_page[574196081]={page}&tfc_div=:::'.format(page=page))
         time.sleep(15)
     except Exception as ex:
         print(ex)
