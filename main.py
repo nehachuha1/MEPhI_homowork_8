@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 async def main() -> None:
     # раскоменнтировать, чтобы обновить базу данных
-    # reupdate_db()
+    reupdate_db()
 
     env_values: Config = get_env_values('.env')
     
